@@ -1,4 +1,4 @@
 zwaj
 ====
 
-Weeding list management
+Weeding list management.
