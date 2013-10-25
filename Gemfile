@@ -48,3 +48,11 @@ gem 'debugger', group: [:development, :test]
 gem 'rails_12factor', group: :production
 
 ruby "1.9.3"
+
+platforms :ruby do # linux
+  gem 'unicorn'
+end
+
+platforms :mswin do
+  # gems specific to windows
+end
